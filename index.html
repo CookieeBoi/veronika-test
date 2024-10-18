@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webstranka</title>
+    <style>
+        html {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        h1 {
+            color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #ececec;
+            text-align: center;
+            padding: 5  px;
+            width: 100%;
+        }
+        p{
+            text-decoration: none;
+            color: inherit
+        }
+        .imgcontainer{
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            padding: 3px;
+            width: 30%;
+            height: 35%
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            img{
+                width: 80%;
+                height: 80%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Ahoj, jsem Veronika</h1><br>
+        <p>Prodavam nejaky super produkty, co si o tom myslite?</p>
+        <p>Muzu si tu psat co chci</p><br>
+        <p>Libi se Vam takove psani? Tak to byste se urcite chteli podivat na moje produkty:</p>
+        <div class="imgcontainer">
+            <img src="F0NYXCCacAIyMYs.jpg">
+            <img src="F0NYXCCacAIyMYs.jpg">
+            <img src="F0NYXCCacAIyMYs.jpg">
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Veronika Krcmarova</p>
+        <p>Mail: krcmarova.v@gmail.com</p>
+        <p>Telefon: +420 777 905 403</p>
+    </footer>
+</body>
+</html>
